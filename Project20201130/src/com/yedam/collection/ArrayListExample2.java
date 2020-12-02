@@ -12,6 +12,14 @@ public class ArrayListExample2 {
 		System.out.println("Hello".hashCode());
 		System.out.println("Hello".hashCode());
 		
+		List<String> olist = new ArrayList(); //list<> 괄호 안에 타입 정해주기.
+		olist.add("Hello");
+		
+		for(Object str : olist) {
+			String s = (String) str;
+			System.out.println(s);
+		}
+		
 		List<String> list = new ArrayList<>();
 		list.add(new String("Hello"));
 		list.add(new String("World"));

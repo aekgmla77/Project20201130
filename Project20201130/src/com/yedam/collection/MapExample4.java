@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 public class MapExample4 {
 	public static void main(String[] args) {
-		TreeSet<Integer> tset = new TreeSet<>();
+		TreeSet<Integer> tset = new TreeSet<>(); //크다, 작다 기준이 있어야 함.
 		tset.add(50);
 		tset.add(30);
 		tset.add(45);
