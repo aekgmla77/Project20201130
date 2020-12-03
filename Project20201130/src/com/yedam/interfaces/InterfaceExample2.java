@@ -8,7 +8,7 @@ interface Calculate {
 	public void sum(int num1, int num2);
 }
 
-public class interfaceExample2 {
+public class InterfaceExample2 {
 	public static void main(String[] args) {
 		Calculate calcu = (int num1, int num2) -> {
 				System.out.println(num1 + num2);	
